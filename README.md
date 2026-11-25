@@ -11,7 +11,7 @@
 ## 安装
 
 ```bash
-git clone https://github.com/<you>/vibe-knowledge-short.git ~/.claude/skills/vibe-knowledge-short
+git clone https://github.com/fanpeter853-glitch/vibe-knowledge-short.git ~/.claude/skills/vibe-knowledge-short
 git clone https://github.com/HeyChengC/vibe-knowledge-film.git ~/.claude/skills/vibe-knowledge-film   # 引擎
 python ~/.claude/skills/vibe-knowledge-short/scripts/setup.py                                        # 字体 + 依赖自检
 ```
@@ -50,3 +50,4 @@ references/
 ## 命名与授权
 
 MIT。引擎与字体各自遵循上游授权（引擎 MIT；字体 SIL OFL 1.1，由 `setup.py` 从 Google Fonts 下载，不入库）。
+
