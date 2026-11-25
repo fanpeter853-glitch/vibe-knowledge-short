@@ -1,0 +1,18 @@
+# 引擎与字体不入库：setup.py 会自己下
+engine/
+fonts/
+*.ttf
+*.otf
+
+# 渲染中间产物
+renders/
+review/
+joined.mp4
+_tmp_*/
+p*.mp4
+
+# 依赖与缓存
+__pycache__/
+*.pyc
+node_modules/
+.venv/
